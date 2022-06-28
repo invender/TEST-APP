@@ -1,0 +1,5 @@
+.main {
+  grid-area: trips;
+  display: grid;
+  grid-gap: 20px;
+}

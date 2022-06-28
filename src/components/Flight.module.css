@@ -1,0 +1,10 @@
+.container {
+  display: grid;
+  grid-template-columns: min-content;
+  grid-template-rows: min-content min-content;
+}
+
+
+.container span {
+  white-space: nowrap;
+}

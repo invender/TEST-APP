@@ -1,0 +1,27 @@
+.main {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: min-content 1fr 1fr;
+  grid-auto-rows: min-content;
+  grid-gap: 20px;
+  grid-template-areas:
+    "filter sort sort"
+    "filter trips trips";
+    background-color: #f3f7fa;
+  min-height: 100vh;
+}
+
+
+.filter {
+  grid-area: filter;
+}
+
+.sort {
+  grid-area: sort;
+}
+
+.trips {
+  grid-area: trips;
+  display: grid;
+  grid-gap: 20px;
+}

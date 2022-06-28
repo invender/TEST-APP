@@ -1,0 +1,28 @@
+.main :global(.ant-card-body) {
+  height: 100%;
+  display: grid;
+  grid-template-columns: min-content min-content min-content;
+  grid-template-rows: 1.5fr 1fr 1fr;
+  grid-auto-flow: row;
+  justify-content: space-between;
+  align-content: space-between;
+  grid-gap: 7px;
+  grid-template-areas:
+    "price . ."
+    ". . ."
+    ". . .";
+}
+
+.image {
+  align-self: center;
+  width: 200px;
+}
+
+.price {
+  align-self: center;
+  white-space: nowrap;
+  grid-area: price;
+}
+h3.price {
+  color: #3691d9;
+}
